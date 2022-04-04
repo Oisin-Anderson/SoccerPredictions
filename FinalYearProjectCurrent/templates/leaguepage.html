@@ -1,0 +1,54 @@
+{% extends 'partial/layout.html' %}
+
+{% block content %}
+    <!--<h1>League: {{league}}</h1>-->
+
+    <div class="container col-sm-12 mt-5 mb-3">
+      <div class="row justify-content-center">
+        <div class="col-sm-4 text-center bg-info rounded-sm shadow mr-5 p-4">
+          <h3>Full League</h3>
+          <form action="/fullLeague" method="POST" enctype = "multipart/form-data">
+            <div>
+              <label for="fleague">League:</label>
+              <input type="text" id="fleague" name="fleague" value={{cleague}}><br>
+              <label for="floptions">Choose Prediction Method:</label>
+              <select id="floptions" name="floptions" class="custom-select">
+                <option value="whole">Full Prediction</option>
+                <option value="preloaded">Display Pre Loaded Data For {{sleague}}</option>
+              </select>
+            </div>
+            <div class="pt-1">
+              <label for="date">Date of preloaded data</label>
+              <input type="text" id="date" name="date" value={{date}}><br>
+            </div>
+            <div class="pt-2">
+              <input type="submit" class="btn btn-primary" value="Run Prediction">
+            </div>
+          </form>
+          <p>This runs a prediction on the league chosen. It shows what the predicted league table will be like.</p>
+        </div>
+
+        <div class="text-center col-sm-4 bg-light rounded-sm shadow p-4">
+          <h3>Mini League</h3>
+          <form action="/miniLeague" method="POST" enctype = "multipart/form-data">
+            {% for i in range(0, length) %}
+            <input type="checkbox" id={{clubs[i]}} name="mini" value={{clubs[i]}}>
+            <label for="{{clubs[i]}}">{{clubs[i]}}</label>
+            {% endfor %}
+            <input type="submit" class="btn btn-primary" value="Run Prediction">
+          </form>
+          <p>Choose as many teams from the league chosen and a predicted league table of the matches played will be displayed. Must choose atleast 6 teams.</p>
+        </div>
+      </div>
+    </div>
+
+        
+
+    <script language = "JavaScript">
+      document.getElementById("fleague").disabled = true;
+    </script>
+    <script language = "JavaScript">
+      document.getElementById("date").disabled = true;
+    </script>
+
+{% endblock %}

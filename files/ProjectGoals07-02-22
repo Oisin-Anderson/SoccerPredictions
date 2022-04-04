@@ -1,0 +1,19 @@
+Project Goals 7th Feb 2022
+To Do
+1.What prediction algorithm do you plan to use? Bayesian? Any alternatives?
+2.Is there a Python library code for the algorithm?
+3.What preparation do you need to do on the data.
+4.Develop (and start) implementation plan.
+5.Does the architecture need to be updated.
+6.Get GitHub desktop working.
+7.Check Project Moodle Page for Thesis layout? identify the content that you would put into each chapter.
+
+
+Done
+1. Looked at Arima and Poisson distribution but using Bayesian Heirarchal model. 
+2. PyMC3 is the Python library.
+3. Data will needed to be converted to floats or ints from strings.
+4. 
+5. Updated architecture diagram to include csv file.
+6. Github desktop should work now.
+7. 

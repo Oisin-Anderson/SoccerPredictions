@@ -1,0 +1,118 @@
+{% extends 'partial/layout.html' %}
+
+{% block content %}
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-sm-12">
+            <div class="card-columns">
+              <div class="card bg-info">
+                <div class="card-header text-center">
+                  <h3>League Predictions</h3>
+                </div>
+                <div class="card-body text-center">
+                  <form action="/leaguepage" method="POST" enctype = "multipart/form-data">
+                    <div>
+                      <h5>Select A League:</h5>
+                      <select id="league" name="league" class="custom-select">
+                        <option value="EPL">EPL</option>
+                        <option value="La_Liga">La_Liga</option>
+                        <option value="Ligue_1">Ligue_1</option>
+                        <option value="Serie_A">Serie_A</option>
+                        <option value="RFPL">RFPL</option>
+                        <option value="BundesLiga">BundesLiga</option>
+                      </select>
+                    </div>
+                    <div class="pt-2">
+                      <input type="submit"  class="btn btn-primary" value="To League Page">
+                    </div>
+                  </form>
+                </div>
+              </div>
+              
+              <div class="card bg-light">
+                <div class="card-header text-center">
+                  <h3>Match Predictions</h3>
+                </div>
+                <div class="card-body text-center">
+                  <form action="/headpage" method="POST" enctype = "multipart/form-data">
+                    <div> 
+                      <h5>Select A League:</h5>
+                      <select id="league" name="league" class="custom-select">
+                        <option value="EPL">EPL</option>
+                        <option value="La_Liga">La_Liga</option>
+                        <option value="Ligue_1">Ligue_1</option>
+                        <option value="Serie_A">Serie_A</option>
+                        <option value="RFPL">RFPL</option>
+                        <option value="BundesLiga">BundesLiga</option>
+                      </select>
+                    </div>
+                    <div class="pt-2">
+                      <input type="submit"  class="btn btn-primary" value="To H2H Page">
+                    </div>
+                  </form>
+                </div>
+              </div>
+              
+              <div class="card bg-info">
+                <div class="card-header text-center">
+                  <h3>Export Data</h3>
+                </div>
+                <div class="card-body text-center">
+                  <form action="/exportpage" method="POST" enctype = "multipart/form-data">
+                    <div> 
+                      <h5>Select A League:</h5>
+                      <select id="league" name="league" class="custom-select">
+                        <option value="EPL">EPL</option>
+                        <option value="La_Liga">La_Liga</option>
+                        <option value="Ligue_1">Ligue_1</option>
+                        <option value="Serie_A">Serie_A</option>
+                        <option value="RFPL">RFPL</option>
+                        <option value="BundesLiga">BundesLiga</option>
+                      </select>
+                    </div>
+                    <div class="pt-2">
+                      <input type="submit"  class="btn btn-primary" value="To Export Page">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="container col-sm-12 mt-5 mb-3">
+      <div class="row justify-content-center">
+        <div class="col-sm-6 text-center bg-info rounded-sm shadow mr-5 p-4">
+          <h3>Head To Head Testing</h3>
+          <form action="/testing" method="POST" enctype = "multipart/form-data">
+            <div> 
+              <label for="league">Select A League:</label>
+              <select id="league" name="league" class="custom-select">
+                <option value="EPL">EPL</option>
+                <option value="La_Liga">La_Liga</option>
+                <option value="Ligue_1">Ligue_1</option>
+                <option value="Serie_A">Serie_A</option>
+                <option value="RFPL">RFPL</option>
+                <option value="BundesLiga">BundesLiga</option>
+              </select>
+              <label for="option">Select A Prediction:</label>
+              <select id="option" name="option" class="custom-select">
+                <option value="Direct">Full Direct Head To Head</option>
+                <option value="League">Full League Head To Head</option>
+                <option value="preDirect">Preloaded Direct Head To Head</option>
+                <option value="preLeague">Preloaded League Head To Head</option>
+              </select>
+            </div>
+            <div class="pt-2">
+              <input type="submit" class="btn btn-primary" value="Test Prediction">
+            </div>
+          </form>
+          <p>Tests the head to head predictions by comparing predictions of last 20 matches played in the league with the actual outcome of the match.</p>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}

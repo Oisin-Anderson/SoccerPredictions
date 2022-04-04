@@ -1,0 +1,56 @@
+{% extends 'partial/layout.html' %}
+
+{% block content %}
+    <div class="container col-sm-12 mt-5 mb-3">
+      <div class="row justify-content-center">
+        <div class="col-sm-4 text-center bg-info rounded-sm shadow mr-5 p-4">
+          <h3>Fixture Data</h3>
+          <form action="/fixtures" method="POST" enctype = "multipart/form-data">
+            <div>
+              <label for="expfix">League:</label>
+              <input type="text" id="expfix" name="expfix" value={{league}}><br>
+              <label for="season">Choose Season:</label>
+              <select id="season" name="season" class="custom-select">
+                {% for i in range(0, slength) %}
+                <option value={{seasons[i]}}>{{seasons[i]}}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="pt-2">
+              <input type="submit" class="btn btn-primary" value="Get Data">
+            </div>
+          </form>
+          <p>Returns list of fixtures based on seasons and league selected.</p>
+        </div>
+
+
+        <div class="col-sm-4 text-center bg-light rounded-sm shadow mr-5 p-4">
+          <h3>Team Data</h3>
+          <form action="/teams" method="POST" enctype = "multipart/form-data">
+            <div>
+              <label for="exptea">League:</label>
+              <input type="text" id="exptea" name="exptea" value={{league}}><br>
+              <label for="team">Choose A Team</label>
+              <select id="team" name="team" class="custom-select">
+                {% for i in range(0, clength) %}
+                <option value={{clubs[i]}}>{{clubs[i]}}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="pt-2">
+              <input type="submit" class="btn btn-primary" value="Get Data">
+            </div>
+          </form>
+          <p>Displays table comparing the selected teams finish in each season of the league selected.</p>
+        </div>              
+      </div>
+    </div>
+
+    <script language = "JavaScript">
+      document.getElementById("exptea").disabled = true;
+    </script>
+    <script language = "JavaScript">
+      document.getElementById("expfix").disabled = true;
+    </script>
+
+{% endblock %}

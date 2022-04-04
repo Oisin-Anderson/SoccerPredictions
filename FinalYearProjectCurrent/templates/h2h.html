@@ -1,0 +1,115 @@
+{% extends 'partial/layout.html' %}
+
+{% block content %}
+
+<div class="container mt-5 center">
+    <div class="row">
+       <div class="col-sm-12 center text-center">
+        <div class="card-group">
+            <div class="card bg-info">
+                <div class="card-header text-center">
+                    <h3 class="card-text">Home Win</h3>
+                </div>
+              <div class="card-body text-center">
+                <h5 class="card-text">{{hteam}}</h5>
+                <p class="card-text">{{win}}%</p>
+              </div>
+            </div>
+
+            <div class="card bg-light">
+                <div class="card-header text-center">
+                    <h3 class="card-text">Draw</h3>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-text">Both Teams</h5>
+                  <p class="card-text">{{draw}}%</p>
+                </div>
+            </div>
+
+            <div class="card bg-info">
+                <div class="card-header text-center">
+                    <h3 class="card-text">Away Win</h3>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-text">{{ateam}}</h5>
+                  <p class="card-text">{{loss}}%</p>
+                </div>
+            </div>
+
+            <div class="card bg-light">
+                <div class="card-header text-center">
+                    <h3 class="card-text">Most Likely Score</h3>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-text">{{h}}:{{a}}</h5>
+                  <p class="card-text">{{predict}}%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-3 center">
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <form action="/backheadpage" method="POST" enctype = "multipart/form-data">
+                <div class="mt-2 mb-2">
+                <input type="submit"  class="btn btn-primary" value="Back To Head To Head Page">
+                </div>
+            </form>
+            <div class="d-flex justify-content-center">
+                <table id="odds" class="table table-striped table-bordered" style="width:100%">
+                    <tr>
+                        <th>Odds</th>
+                        <th>{{ateam}}: 0</th>
+                        <th>{{ateam}}: 1</th>
+                        <th>{{ateam}}: 2</th>
+                        <th>{{ateam}}: 3</th>
+                        <th>{{ateam}}: 4</th>
+                    </tr>
+                    <tr>
+                        <th>{{hteam}}: 0</th>
+                        {% for i in range(0, 5) %}
+                            <td>{{odds[i]}}%</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th>{{hteam}}: 1</th>
+                        {% for i in range(5, 10) %}
+                            <td>{{odds[i]}}%</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th>{{hteam}}: 2</th>
+                        {% for i in range(10, 15) %}
+                            <td>{{odds[i]}}%</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th>{{hteam}}: 3</th>
+                        {% for i in range(15, 20) %}
+                            <td>{{odds[i]}}%</td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <th>{{hteam}}: 4</th>
+                        {% for i in range(20, 25) %}
+                            <td>{{odds[i]}}%</td>
+                        {% endfor %}
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+<!--Odds Table-->
+<script language = "JavaScript">
+    $(document).ready(function() {
+        $('#odds').DataTable();
+    } );
+</script>
+
+{% endblock %}

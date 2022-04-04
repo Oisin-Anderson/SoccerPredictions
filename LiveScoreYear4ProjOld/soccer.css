@@ -1,0 +1,162 @@
+#center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+  #coord {
+    margin: auto;
+    width: 50%;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+  }
+  #nav {
+    margin: auto;
+    width: 50%;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+  }
+
+  #header{
+    margin: auto;
+    width: 50%;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    background-color: rgb(160, 140, 140); 
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #body{
+    background-color: rgb(190, 188, 188);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
+  }
+  #data{
+    background-color: rgb(160, 140, 140);
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+  }
+  #chartContainer{
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #f1f1f1;
+  }
+  #text{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+  }
+  #button{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #details {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(175, 238, 238);
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+  }
+  #feild{
+    border: 0px;
+    font-size: 40px;
+  }
+  #details1{
+    font-size: 40px;
+  }
+
+  #pad {
+    padding-top: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    margin:auto;
+    width:78%;
+  }
+  footer{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  #footer{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-color: black;
+  }
+
+
+
+
+  table, td {
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    background-color: rgb(58, 55, 55);
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    background-color: #505250;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .col-sm-6{
+    margin: 5%;
+  }
+
+  .col-sm-12{
+    margin: 10%;
+  }
+
+
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+  
+
+
+
+  .btn-group button {
+    background-color: grey; /* Green background */
+    border: 1px solid black; /* Green border */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #505250;
+  }
+

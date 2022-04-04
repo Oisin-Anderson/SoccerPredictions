@@ -1,0 +1,68 @@
+{% extends 'partial/layout.html' %}
+
+{% block content %}
+    <div class="container col-sm-12 mt-5 mb-3">
+      <div class="row justify-content-center">
+        <div class="col-sm-4 text-center bg-info rounded-sm shadow mr-5 p-4">
+          <h3>League Head To Head</h3>
+          <form action="/headleagPred" method="POST" enctype = "multipart/form-data">
+            <div>
+              <label for="lpred">League:</label>
+              <input type="text" id="lpred" name="lpred" value={{league}}><br>
+              <label for="team1">Choose Home Team:</label>
+              <select id="team1" name="team1" class="custom-select">
+                {% for i in range(0, length) %}
+                <option value={{clubs[i]}}>{{clubs[i]}}</option>
+                {% endfor %}
+              </select>
+              <label for="team1">Choose Away Team:</label>
+              <select id="team2" name="team2" class="custom-select">
+                {% for i in range(0, length) %}
+                <option value={{clubs[i]}}>{{clubs[i]}}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="pt-2">
+              <input type="submit" class="btn btn-primary" value="Run Prediction">
+            </div>
+          </form>          
+          <p>Predicts the result of match between the teams selected. Based of each teams league matches this season.</p>
+        </div>
+
+
+        <div class="col-sm-4 text-center bg-light rounded-sm shadow mr-5 p-4">
+          <h3>Direct Head To Head</h3>
+          <form action="/headPred" method="POST" enctype = "multipart/form-data">
+            <div>
+              <label for="dpred">League:</label>
+              <input type="text" id="dpred" name="dpred" value={{league}}><br>
+              <label for="team1">Choose Home Team:</label>
+              <select id="team1" name="team1" class="custom-select">
+                {% for i in range(0, length) %}
+                <option value={{clubs[i]}}>{{clubs[i]}}</option>
+                {% endfor %}
+              </select>
+              <label for="team1">Choose Away Team:</label>
+              <select id="team2" name="team2" class="custom-select">
+                {% for i in range(0, length) %}
+                <option value={{clubs[i]}}>{{clubs[i]}}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="pt-2">
+              <input type="submit" class="btn btn-primary" value="Run Prediction">
+            </div>
+          </form>
+          <p>Predicts the result of match between the teams selected. Based of matches between the two teams.</p>
+        </div>              
+      </div>
+    </div>
+
+    <script language = "JavaScript">
+      document.getElementById("lpred").disabled = true;
+    </script>
+    <script language = "JavaScript">
+      document.getElementById("dpred").disabled = true;
+    </script>
+
+{% endblock %}

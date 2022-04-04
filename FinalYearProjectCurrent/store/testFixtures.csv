@@ -1,0 +1,289 @@
+homeTeam,homeGoals,awayTeam,awayGoals,Result
+Brentford,2,Arsenal,0,H
+Manchester United,5,Leeds,1,H
+Burnley,1,Brighton,2,A
+Chelsea,3,Crystal Palace,0,H
+Everton,3,Southampton,1,H
+Leicester,1,Wolverhampton Wanderers,0,H
+Watford,3,Aston Villa,2,H
+Norwich,0,Liverpool,3,A
+Newcastle United,2,West Ham,4,A
+Tottenham,1,Manchester City,0,H
+Liverpool,2,Burnley,0,H
+Manchester City,5,Norwich,0,H
+Aston Villa,2,Newcastle United,0,H
+Crystal Palace,0,Brentford,0,D
+Leeds,2,Everton,2,D
+Brighton,2,Watford,0,H
+Southampton,1,Manchester United,1,D
+Wolverhampton Wanderers,0,Tottenham,1,A
+Arsenal,0,Chelsea,2,A
+West Ham,4,Leicester,1,H
+Manchester City,5,Arsenal,0,H
+Newcastle United,2,Southampton,2,D
+Norwich,1,Leicester,2,A
+Aston Villa,1,Brentford,1,D
+Brighton,0,Everton,2,A
+West Ham,2,Crystal Palace,2,D
+Liverpool,1,Chelsea,1,D
+Burnley,1,Leeds,1,D
+Tottenham,1,Watford,0,H
+Wolverhampton Wanderers,0,Manchester United,1,A
+Crystal Palace,3,Tottenham,0,H
+Arsenal,1,Norwich,0,H
+Brentford,0,Brighton,1,A
+Leicester,0,Manchester City,1,A
+Manchester United,4,Newcastle United,1,H
+Southampton,0,West Ham,0,D
+Watford,0,Wolverhampton Wanderers,2,A
+Chelsea,3,Aston Villa,0,H
+Leeds,0,Liverpool,3,A
+Everton,3,Burnley,1,H
+Newcastle United,1,Leeds,1,D
+Wolverhampton Wanderers,0,Brentford,2,A
+Norwich,1,Watford,3,A
+Burnley,0,Arsenal,1,A
+Liverpool,3,Crystal Palace,0,H
+Manchester City,0,Southampton,0,D
+Aston Villa,3,Everton,0,H
+Brighton,2,Leicester,1,H
+West Ham,1,Manchester United,2,A
+Tottenham,0,Chelsea,3,A
+Chelsea,0,Manchester City,1,A
+Manchester United,0,Aston Villa,1,A
+Watford,1,Newcastle United,1,D
+Everton,2,Norwich,0,H
+Leeds,1,West Ham,2,A
+Leicester,2,Burnley,2,D
+Brentford,3,Liverpool,3,D
+Southampton,0,Wolverhampton Wanderers,1,A
+Arsenal,3,Tottenham,1,H
+Crystal Palace,1,Brighton,1,D
+Manchester United,1,Everton,1,D
+Burnley,0,Norwich,0,D
+Chelsea,3,Southampton,1,H
+Leeds,1,Watford,0,H
+Wolverhampton Wanderers,2,Newcastle United,1,H
+Brighton,0,Arsenal,0,D
+Crystal Palace,2,Leicester,2,D
+Tottenham,2,Aston Villa,1,H
+West Ham,1,Brentford,2,A
+Liverpool,2,Manchester City,2,D
+Watford,0,Liverpool,5,A
+Aston Villa,2,Wolverhampton Wanderers,3,A
+Leicester,4,Manchester United,2,H
+Manchester City,2,Burnley,0,H
+Norwich,0,Brighton,0,D
+Southampton,1,Leeds,0,H
+Brentford,0,Chelsea,1,A
+Everton,0,West Ham,1,A
+Newcastle United,2,Tottenham,3,A
+Arsenal,2,Crystal Palace,2,D
+Arsenal,3,Aston Villa,1,H
+Chelsea,7,Norwich,0,H
+Crystal Palace,1,Newcastle United,1,D
+Everton,2,Watford,5,A
+Leeds,1,Wolverhampton Wanderers,1,D
+Southampton,2,Burnley,2,D
+Brighton,1,Manchester City,4,A
+Brentford,1,Leicester,2,A
+West Ham,1,Tottenham,0,H
+Manchester United,0,Liverpool,5,A
+Leicester,0,Arsenal,2,A
+Burnley,3,Brentford,1,H
+Liverpool,2,Brighton,2,D
+Manchester City,0,Crystal Palace,2,A
+Newcastle United,0,Chelsea,3,A
+Watford,0,Southampton,1,A
+Tottenham,0,Manchester United,3,A
+Norwich,1,Leeds,2,A
+Aston Villa,1,West Ham,4,A
+Wolverhampton Wanderers,2,Everton,1,H
+Southampton,1,Aston Villa,0,H
+Manchester United,0,Manchester City,2,A
+Brentford,1,Norwich,2,A
+Chelsea,1,Burnley,1,D
+Crystal Palace,2,Wolverhampton Wanderers,0,H
+Brighton,1,Newcastle United,1,D
+Arsenal,1,Watford,0,H
+Everton,0,Tottenham,0,D
+Leeds,1,Leicester,1,D
+West Ham,3,Liverpool,2,H
+Leicester,0,Chelsea,3,A
+Aston Villa,2,Brighton,0,H
+Burnley,3,Crystal Palace,3,D
+Newcastle United,3,Brentford,3,D
+Norwich,2,Southampton,1,H
+Watford,4,Manchester United,1,H
+Wolverhampton Wanderers,1,West Ham,0,H
+Liverpool,4,Arsenal,0,H
+Manchester City,3,Everton,0,H
+Tottenham,2,Leeds,1,H
+Arsenal,2,Newcastle United,0,H
+Crystal Palace,1,Aston Villa,2,A
+Liverpool,4,Southampton,0,H
+Norwich,0,Wolverhampton Wanderers,0,D
+Brighton,0,Leeds,0,D
+Brentford,1,Everton,0,H
+Leicester,4,Watford,2,H
+Manchester City,2,West Ham,1,H
+Chelsea,1,Manchester United,1,D
+Newcastle United,1,Norwich,1,D
+Leeds,1,Crystal Palace,0,H
+Watford,1,Chelsea,2,A
+West Ham,1,Brighton,1,D
+Wolverhampton Wanderers,0,Burnley,0,D
+Southampton,2,Leicester,2,D
+Aston Villa,1,Manchester City,2,A
+Everton,1,Liverpool,4,A
+Tottenham,2,Brentford,0,H
+Manchester United,3,Arsenal,2,H
+West Ham,3,Chelsea,2,H
+Newcastle United,1,Burnley,0,H
+Southampton,1,Brighton,1,D
+Wolverhampton Wanderers,0,Liverpool,1,A
+Watford,1,Manchester City,3,A
+Leeds,2,Brentford,2,D
+Manchester United,1,Crystal Palace,0,H
+Tottenham,3,Norwich,0,H
+Aston Villa,2,Leicester,1,H
+Everton,2,Arsenal,1,H
+Brentford,2,Watford,1,H
+Manchester City,1,Wolverhampton Wanderers,0,H
+Arsenal,3,Southampton,0,H
+Chelsea,3,Leeds,2,H
+Liverpool,1,Aston Villa,0,H
+Norwich,0,Manchester United,1,A
+Burnley,0,West Ham,0,D
+Leicester,4,Newcastle United,0,H
+Crystal Palace,3,Everton,1,H
+Norwich,0,Aston Villa,2,A
+Manchester City,7,Leeds,0,H
+Brighton,0,Wolverhampton Wanderers,1,A
+Crystal Palace,2,Southampton,2,D
+Arsenal,2,West Ham,0,H
+Chelsea,1,Everton,1,D
+Liverpool,3,Newcastle United,1,H
+Leeds,1,Arsenal,4,A
+Wolverhampton Wanderers,0,Chelsea,0,D
+Newcastle United,0,Manchester City,4,A
+Tottenham,2,Liverpool,2,D
+Manchester City,6,Leicester,3,H
+Norwich,0,Arsenal,5,A
+Tottenham,3,Crystal Palace,0,H
+West Ham,2,Southampton,3,A
+Aston Villa,1,Chelsea,3,A
+Brighton,2,Brentford,0,H
+Newcastle United,1,Manchester United,1,D
+Watford,1,West Ham,4,A
+Crystal Palace,3,Norwich,0,H
+Southampton,1,Tottenham,1,D
+Leicester,1,Liverpool,0,H
+Chelsea,1,Brighton,1,D
+Brentford,0,Manchester City,1,A
+Manchester United,3,Burnley,1,H
+Arsenal,1,Manchester City,2,A
+Watford,0,Tottenham,1,A
+Crystal Palace,2,West Ham,3,A
+Brentford,2,Aston Villa,1,H
+Everton,2,Brighton,3,A
+Leeds,3,Burnley,1,H
+Chelsea,2,Liverpool,2,D
+Manchester United,0,Wolverhampton Wanderers,1,A
+Southampton,4,Brentford,1,H
+West Ham,2,Norwich,0,H
+Brighton,1,Crystal Palace,1,D
+Manchester City,1,Chelsea,0,H
+Newcastle United,1,Watford,1,D
+Norwich,2,Everton,1,H
+Wolverhampton Wanderers,3,Southampton,1,H
+Aston Villa,2,Manchester United,2,D
+Liverpool,3,Brentford,0,H
+West Ham,2,Leeds,3,A
+Brighton,1,Chelsea,1,D
+Leicester,2,Tottenham,3,A
+Brentford,1,Manchester United,3,A
+Watford,0,Norwich,3,A
+Everton,0,Aston Villa,1,A
+Brentford,1,Wolverhampton Wanderers,2,A
+Leeds,0,Newcastle United,1,A
+Manchester United,1,West Ham,0,H
+Southampton,1,Manchester City,1,D
+Arsenal,0,Burnley,0,D
+Crystal Palace,1,Liverpool,3,A
+Leicester,1,Brighton,1,D
+Chelsea,2,Tottenham,0,H
+Burnley,0,Watford,0,D
+West Ham,1,Watford,0,H
+Newcastle United,3,Everton,1,H
+Burnley,1,Manchester United,1,D
+Norwich,1,Crystal Palace,1,D
+Tottenham,2,Southampton,3,A
+Manchester City,2,Brentford,0,H
+Aston Villa,3,Leeds,3,D
+Wolverhampton Wanderers,0,Arsenal,1,A
+Liverpool,2,Leicester,0,H
+Manchester United,1,Southampton,1,D
+Brentford,0,Crystal Palace,0,D
+Everton,3,Leeds,0,H
+Watford,0,Brighton,2,A
+Norwich,0,Manchester City,4,A
+Burnley,0,Liverpool,1,A
+Newcastle United,1,Aston Villa,0,H
+Tottenham,0,Wolverhampton Wanderers,2,A
+Leicester,2,West Ham,2,D
+Manchester United,2,Brighton,0,H
+West Ham,1,Newcastle United,1,D
+Arsenal,2,Brentford,1,H
+Aston Villa,0,Watford,1,A
+Brighton,0,Burnley,3,A
+Crystal Palace,0,Chelsea,1,A
+Liverpool,3,Norwich,1,H
+Southampton,2,Everton,0,H
+Manchester City,2,Tottenham,3,A
+Leeds,2,Manchester United,4,A
+Wolverhampton Wanderers,2,Leicester,1,H
+Burnley,1,Tottenham,0,H
+Watford,1,Crystal Palace,4,A
+Liverpool,6,Leeds,0,H
+Arsenal,2,Wolverhampton Wanderers,1,H
+Southampton,2,Norwich,0,H
+Leeds,0,Tottenham,4,A
+Brentford,0,Newcastle United,2,A
+Crystal Palace,1,Burnley,1,D
+Manchester United,0,Watford,0,D
+Brighton,0,Aston Villa,2,A
+Everton,0,Manchester City,1,A
+West Ham,1,Wolverhampton Wanderers,0,H
+Burnley,0,Leicester,2,A
+Leicester,1,Leeds,0,H
+Aston Villa,4,Southampton,0,H
+Burnley,0,Chelsea,4,A
+Newcastle United,2,Brighton,1,H
+Norwich,1,Brentford,3,A
+Wolverhampton Wanderers,0,Crystal Palace,2,A
+Liverpool,1,West Ham,0,H
+Watford,2,Arsenal,3,A
+Manchester City,4,Manchester United,1,H
+Tottenham,5,Everton,0,H
+Wolverhampton Wanderers,4,Watford,0,H
+Southampton,1,Newcastle United,2,A
+Norwich,1,Chelsea,3,A
+Leeds,0,Aston Villa,3,A
+Brighton,0,Liverpool,2,A
+Brentford,2,Burnley,0,H
+Manchester United,3,Tottenham,2,H
+Chelsea,1,Newcastle United,0,H
+Everton,0,Wolverhampton Wanderers,1,A
+Leeds,2,Norwich,1,H
+Southampton,1,Watford,2,A
+West Ham,2,Aston Villa,1,H
+Arsenal,2,Leicester,0,H
+Crystal Palace,0,Manchester City,0,D
+Brighton,0,Tottenham,2,A
+Arsenal,0,Liverpool,2,A
+Everton,1,Newcastle United,0,H
+Wolverhampton Wanderers,2,Leeds,3,A
+Aston Villa,0,Arsenal,1,A
+Leicester,2,Brentford,1,H
+Tottenham,3,West Ham,1,H
